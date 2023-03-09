@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            background-color: #5291CD;
+            height: 150px;
+            align-items: center;
+        }
+
+        header > * {
+            flex: 1;
+        }
+
+        .headerLogo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .headerMenu {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            justify-content: center;
+        }
+
+        .headerMenu li {
+            padding: 8px;
+            border-right: 1px solid white;
+        }
+
+        .headerMenu li:last-child {
+            border: none;
+        }
+
+        .headerSearch {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul class="headerMenu">
+            <li>Directories</li>
+            <li>Calendars</li>
+            <li>News</li>
+            <li>Library</li>
+        </ul>
+        <div class="headerLogo">
+            <h1>S I M O N S</h1>
+            <h2>BOSTON · MASACHUSETS</h2>
+        </div>
+        <div class="headerSearch">
+            <a href="#">Links for</a>
+            <a href="#">Search</a>
+        </div>
+    </header>
+</body>
+</html>

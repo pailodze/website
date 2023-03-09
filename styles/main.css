@@ -1,0 +1,53 @@
+/* || General Styles */
+
+h1 {
+  text-align: center;
+  color: #145786;
+  background-color: #ffffff8f;
+  border-radius: 12px;
+  border: 1px solid #ead0d0bc;
+  padding: 0.5em;
+  font-size: 2em;
+}
+
+body {
+  background-color: #2d81cf;
+  color: white;
+  font-family: 'Tilt Prism', cursive;
+}
+
+p {
+  text-align: center;
+  color: brown;
+  line-height: 50px;
+  width: 15lh;
+}
+
+/* || Typography */
+
+a {
+  color: red;
+}
+
+video {
+  width: 400px;
+}
+
+h2 {
+  color: yellow;
+}
+
+/* || Header */
+
+h3 {
+  color: rgb(200, 200, 200);
+  background-color: rgba(255, 255, 255, 0.1);
+  width: fit-content;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#mainDescription {
+  color: white;
+  font-size: 18px;
+}

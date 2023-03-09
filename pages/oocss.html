@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+                /* BEM */
+        /* block__element--modifier */
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            width: 1200px;
+            margin: 0 auto;
+            gap: 24px;
+        }
+        
+        .gallery__photo {
+            flex: 1 350px;
+            height: 350px;
+            padding: 16px;
+        }
+
+        .gallery__photo--grey {
+            background-color: grey;
+        }
+
+        .gallery__photo--purple {
+            background-color: purple;
+        }
+
+        .gallery__photo--blue {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery__photo gallery__photo--grey"></div>
+        <div class="gallery__photo gallery__photo--grey"></div>
+        <div class="gallery__photo gallery__photo--grey"></div>
+        <div class="gallery__photo gallery__photo--purple"></div>
+        <div class="gallery__photo gallery__photo--blue"></div>
+        <div class="gallery__photo"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        input.redButton {
+            background-color: red;
+        }
+        
+        input.greenButton {
+            background-color: green;
+        }
+
+        input.redButton, input.greenButton {
+            color: white;
+        }
+        
+        input.bigButton {
+            width: 100px;
+            height: 70px;
+        }
+
+        input.smallButton {
+            font-size: 8px;
+        }
+
+        a[target] {
+            color: red;
+        }
+
+        input[type=submit] {
+            color: white;
+        }
+        
+        a[href="https://novatori.ge"] {
+            color: green;
+        }
+        
+        a, input {
+            font-size: 20px;
+        }
+        
+        div span {
+            color: blue;
+        }
+
+        div > span {
+            font-weight: bold;
+        }
+
+        p ~ span {
+            color: red;
+        }
+
+        p + span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <span>This is not red.</span>
+    <p>Here is a paragraph.</p>
+    <span>ერთი ჩამატებული სპანი :D</span>
+    <code>Here is some code.</code>
+    <span>And here is a red span!</span>
+    <span>And this is a red span!</span>
+    <code>More code…</code>
+    <div>How are you?</div>
+    <p>Whatever it may be, keep smiling.</p>
+    <h1>Dream big</h1>
+    <span>And yet again this is a red span!</span>
+    
+
+    <div class="redButton">
+        მე ვარ div ელემენტის უშუალო <span>შვილი</span>
+        <p>
+            მე ვარ div ელემენტის შთამომავალი, <span>შვილიშვილი</span>
+        </p>
+    </div>
+
+    <input type="button" class="greenButton" value="გაგზავნა" />
+    <input type="submit" class="greenButton" value="რეგისტრაცია" />
+    <input type="submit" class="redButton smallButton" value="გაუქმება" />
+    <input type="submit" class="greenButton bigButton" value="ყიდვა" />
+    <input type="button" class="redButton" value="გამოსვლა" />
+
+    <div>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://google.com">Google</a>
+        <a href="https://apple.com">Apple</a>
+        <a href="https://novatori.ge">Novatori</a>
+        <a href="background.html">Background HTML file</a>
+    </div>
+
+    
+</body>
+</html>

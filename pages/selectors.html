@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* div span {
+            background-color: red;
+        }
+
+        div > span {
+            color: white;
+        }
+
+        div section span {
+            color: yellow;
+        } */
+
+        /* div p span {
+            background-color: red;
+        }
+
+        div > p span {
+            color: white;
+        } */
+        
+        /* div > section > span {
+            background-color: red;
+        } */
+
+        /* h1 ~ span {
+            background-color: red;
+        }
+
+        h1 + span {
+            color: white;
+        }
+
+        div + span {
+            color: white;
+        }
+
+        div > p + section p > span {
+            background-color: red;
+        } */
+
+        /* div:hover section span {
+            background-color: red;
+        } */
+
+        /* h1, div, span, p {
+            background-color: red;
+        } */
+
+        /* div > p span, h1 ~ span {
+            background-color: red;
+        } */
+
+        /* 
+            ქართულ-CSS ლექსიკონი
+             (გამოტოვება) - ყველა შთამომავალი
+             >            - ყველა უშუალო შვილი
+             ,            - და
+             ~            - ყველა ქვედა მეზობელი
+             +            - უშუალო ქვედა მეზობელი
+             
+         */
+
+         div ~ span + span {
+            background-color: red;
+         }
+    </style>
+</head>
+<body>
+    <div>მე ვარ div-ი, <span>მე კიდევ div-ის შვილი span-ი</span>
+        <p> მე ვარ div-ის შვილი p.  <span>ხოლო მე div-ის შვილიშვილი და p-ს შვილი span</span>
+        </p>
+        <section>
+            <p>მე ვარ div-ის შვილიშვილი, section-ის შვილი p.<span>მე კიდევ div-ის შვილთაშვილი, section-ის შვილიშვილი, p-ს შვილი span</span>
+            </p>
+        </section>
+    </div>
+    <p>paragraph 1</p>
+    <span>span 1</span>
+    <h1>H1</h1>
+    <div>div 2</div>
+    <span>span 2</span>
+    <span>span 3</span>
+    <span>span 4</span>
+</body>
+</html>
