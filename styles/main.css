@@ -1,6 +1,10 @@
 /* || General Styles */
 
 h1 {
+  background: red;
+}
+
+h1 {
   text-align: center;
   color: #145786;
   background-color: #ffffff8f;
